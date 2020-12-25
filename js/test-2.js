@@ -1,4 +1,4 @@
-const totalSpent = 2000;
+let totalSpent = 2000;
 let payment = 500;
 let discount = 0;
 if (totalSpent >= 100 && totalSpent < 1000) {
@@ -13,4 +13,7 @@ if (totalSpent >= 100 && totalSpent < 1000) {
 } else {
     console.log(`Don't a partner! Discount ${discount * 100}%`);
 }
-alert(`Оформляем заказ на сумму ${payment} со скидкой ${discount *100}%`);
+
+alert(`Оформляем заказ на сумму ${payment = payment - payment * discount} со скидкой ${discount *100}%`);
+totalSpent += payment;
+alert(`Общая сумма потраченного в магазине: ${totalSpent}`);
