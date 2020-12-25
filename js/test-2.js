@@ -13,3 +13,4 @@ if (totalSpent >= 100 && totalSpent < 1000) {
 } else {
     console.log(`Don't a partner! Discount ${discount * 100}%`);
 }
+alert(`Оформляем заказ на сумму ${payment} со скидкой ${discount *100}%`);
