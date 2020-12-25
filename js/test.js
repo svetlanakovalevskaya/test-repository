@@ -1,2 +1,5 @@
-const fafa = "I'm a double note fa!";
-console.log(fafa);
+let balance = 10000;
+const payment = 20000;
+alert(`Общая стоимость заказа ${payment} кредитов. Проверяем кол-во доступных средств на счету.`);
+alert(payment <= balance ? `На счету осталось ${balance - payment} кредитов` : `На счету недостаточно средств для проведения операции!`);
+alert("Операция завершена!");
